@@ -1,0 +1,98 @@
+.body{
+    margin-left: 60px;
+    margin-right: 60px;
+    text-align: center;
+    background-color: white;
+
+}
+
+.Up-info{
+text-align: center;
+font-size: 30px;
+font-family: 'Abril Fatface', cursive;
+font-family: 'Libre Baskerville', serif;
+}
+
+.Up-info h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+.firstUl{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    text-align: center;
+}
+
+.firstUl li{
+    padding-right: 0px;
+    align-items: center;
+
+}
+
+.logo{
+margin-left: 270px;
+text-align: center;
+align-items: center;
+width: 200px;
+height: 150px;
+}
+
+.secondUl{
+display: flex;
+list-style: none;
+align-items: center;
+}
+
+
+
+.secondUl li{
+    font-size: 20px;
+    padding: 0.5rem 5.5rem;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.hrr{
+    width: 1050px;
+    border: none; /* Убираем границу для браузера Firefox */
+    background-color: darkgray; /* Цвет линии для браузера Firefox и Opera */
+    height: 1px; /* Толщина линии */
+}
+
+.photo{
+    margin-bottom: 15px;
+    width: 1050px;
+    height: 548px;
+
+    inset: 0;
+object-fit: cover;
+opacity: .90;
+transition: .75s;
+}
+
+.weekPhotos{
+width: 290px;
+height: 440px;
+padding: 1.7rem;
+}
+
+.photo:hover{
+    transform: scale(1.1);
+}
+
+.weekSale p{
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 25px;
+}
+
+.reviews{
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 25px;
+    text-transform: uppercase;
+
+
+}
